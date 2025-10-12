@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-c
+
 &led_strip {
     chain-length = <27>;
 };
@@ -18,7 +18,7 @@ c
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "Default Layer";
+            display-name = "Base";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
@@ -35,7 +35,7 @@ c
         };
 
         lower_layer {
-            display-name = "Lower Layer";
+            display-name = "Lower";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -52,7 +52,7 @@ c
         };
 
         raise_layer {
-            display-name = "Raise Layer";
+            display-name = "Raise";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
